@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="./asssets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="./asssets/img/logo-01.png" alt="Logo">
+            <h1 class="logo-text">Level</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="level-nav-link nav-link active" aria-current="page" href="#search-form">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="level-nav-link nav-link" href="#Services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="level-nav-link nav-link" href="#Recommendes">Recommendes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="level-nav-link nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- search-form -->
+
+    <div id="search-form" class="hero">
+        <div class="container">
+            <form action="index.html" method="get" class="search-form">
+                <div class="form-group" style="flex:100%">
+                    <i class="fa fa-location-dot"></i>
+                    <input type="text" class="form-control" placeholder="Type your destination..."></input>
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-calendar-days"></i>
+                    <input type="text" class="form-control" placeholder="Check In" id="inputCheckIn"></input>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar-days"></i>
+                    <input type="text" class="form-control" placeholder="Check Out" id="inputCheckOut"></input>
+                </div>
+
+
+
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select class="form-control" name="" id="">
+                        <option value="">Rooms</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <input class="form-control" placeholder="Adults"></input>
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <input class="form-control" placeholder="Children"></input>
+                </div>
+
+
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Check</button>
+                </div>
+            </form>
+            <p class="Need-help">Lorem ipsum, dolor sit adipisicing elit. Magnam nemo totam sed,
+                <a href="#">Need Help?</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Subscribe -->
+
+    <section class="section-color">
+        <div class="container text-center">
+            <h2 class="section-title">We are here to help you!</h2>
+            <p class="section-subtitle">Subscribe to get our newsletters</p>
+            <a href="#" class="btn btn-white">subscribe Newsletters</a>
+
+        </div>
+
+    </section>
+
+    <!-- Services -->
+
+    <section id="Services">
+        <svg xmins="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+            class="section-down-arrow">
+
+            <polygon fill="var(--color-secondary)" points="0,0 100,0 50,50"></polygon>
+        </svg>
+
+        <div class="container">
+            <div class="row">
+
+                <article class="article col-md-4">
+                    <i class="fa fa-legal article-icon"></i>
+                    <h3 class="article-title">Level HTML template by tooplate website</h3>
+
+                    <p>You are allowed to download , edit and use this template for your business or client websites.
+                    </p>
+                    <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+                </article>
+
+                <article class="article col-md-4">
+                    <i class="fa fa-plane article-icon"></i>
+
+                    <h3 class="article-title">Level HTML template by tooplate website</h3>
+
+                    <p>You are allowed to download , edit and use this template for your business or client websites.
+                    </p>
+                    <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+                </article>
+
+                <article class="article col-md-4">
+                    <i class="fa fa-hiking article-icon"></i>
+
+                    <h3 class="article-title">Level HTML template by tooplate website</h3>
+
+                    <p>You are allowed to download , edit and use this template for your business or client websites.
+                    </p>
+                    <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider -->
+
+    <section id="Recommendes" class="section-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="level-slider">
+
+                        <article class="level-slider-item">
+                            <img src="https://fastly.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4"
+                                alt="">
+                            <div class="level-slider-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, aperiam
+                                    explicabo numquam voluptatum asperiores.</p>
+                                <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA"
+                                alt="">
+                            <div class="level-slider-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, aperiam
+                                    explicabo numquam voluptatum asperiores.</p>
+                                <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU"
+                                alt="">
+                            <div class="level-slider-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, aperiam
+                                    explicabo numquam voluptatum asperiores.</p>
+                                <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ"
+                                alt="">
+                            <div class=" level-slider-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, aperiam
+                                    explicabo numquam voluptatum asperiores.</p>
+                                <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="https://fastly.picsum.photos/id/231/4088/2715.jpg?hmac=PxhkmiNJrVS5AgI8U-r_IsWSN5a7cTjpjIbvmtpLMDI"
+                                alt="">
+                            <div class="level-slider-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, aperiam
+                                    explicabo numquam voluptatum asperiores.</p>
+                                <a href="" class=" btn btn-primary btn-fit">Get More Info</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="https://fastly.picsum.photos/id/128/3823/2549.jpg?hmac=VbPyA2vESva2YdoXqll9REBcbQIskgv_c-D60C1s0xc "
+                                alt="">
+                            <div class="level-slider-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, aperiam
+                                    explicabo numquam voluptatum asperiores.</p>
+                                <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="star-places">
+                        <div class="star-places-header">
+                            <h3>Recommaded Places</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="star-places-body">
+                            <a href="#">
+                                <img src="https://fastly.picsum.photos/id/670/2048/1367.jpg?hmac=GT5_zCn_mHuBQWHO0b987AQsuWB_VLmKQJXydYPnSHc"
+                                    alt="">
+                                <h4>Algeria</h4>
+                            </a>
+                            <a href="#">
+                                <img src="https://fastly.picsum.photos/id/299/5000/3288.jpg?hmac=vajPmKo1hPW0RLYeb2h14Ry9Mp5Gw0rs0yc78FmBmdM"
+                                    alt="">
+                                <h4>Morocco</h4>
+                            </a>
+                            <a href="#">
+                                <img src="https://fastly.picsum.photos/id/395/4080/2720.jpg?hmac=6ybpNpyHLfr4TMOiCDCk-hXBFVHPrOnOc5k-QIrspjY"
+                                    alt="">
+                                <h4>Tunisia</h4>
+                            </a>
+                            <a href="#">
+                                <img src="https://fastly.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ"
+                                    alt="">
+                                <h4>Egypt</h4>
+                            </a>
+                            <a href="#">
+                                <img src="https://fastly.picsum.photos/id/670/2048/1367.jpg?hmac=GT5_zCn_mHuBQWHO0b987AQsuWB_VLmKQJXydYPnSHc"
+                                    alt="">
+                                <h4>Palestine</h4>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102286.3839690209!2d3.2189555333024766!3d36.759782774072185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fad6795639515%3A0x4ba4b4c9d0a7e602!2z2YXYr9mK2YbYqSDYp9mE2KzYstin2KbYsQ!5e0!3m2!1sar!2sdz!4v1717774747669!5m2!1sar!2sdz"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" class="form-control" rows="1" placeholder="Message"
+                                required></textarea>
+                            <i class="fa fa-commenting commenting-icon"></i>
+                        </div>
+                        <button type="submit" class="btn1 btn-primary">Send Message Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright 2024 Level -Desinger:
+                <a href="">Messika Oussama</a>
+            </p>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="./asssets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</body>
+
+</html>
