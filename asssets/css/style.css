@@ -75,7 +75,7 @@ a {
 }
 
 .hero {
-    background: url(/asssets/img/Default_Scenic_Islamic_garden_with_palm_trees_5.jpg);
+    background: url(../img/Default_Scenic_Islamic_garden_with_palm_trees_5.jpg);
     background-position: center;
     height: 515px;
     display: flex;
